@@ -1,0 +1,38 @@
+Expense Tracker Application
+=========================
+
+This is a simple expense tracking application built with Python and Tkinter. It helps users manage and track their daily expenses with the following features:
+
+Key Features:
+------------
+1. Add Expenses:
+   - Record expense name, date, amount, and category
+   - Categories include: Food, Transport, Utilities, Entertainment, Shopping, Healthcare, Rent, Education, and Other
+
+2. Data Management:
+   - Stores all expenses in an SQLite database
+   - Export expenses to CSV file for backup or analysis
+
+3. Visualization:
+   - View expense distribution by category using bar charts
+   - Monthly summary of expenses
+
+4. User Interface:
+   - Simple and intuitive GUI
+   - Date picker for easy date selection
+   - Dropdown menus for categories and monthly summaries
+
+Technical Details:
+----------------
+- Built with Python and Tkinter for the GUI
+- Uses SQLite for data storage
+- Includes matplotlib for data visualization
+- Supports CSV export functionality
+
+To run the program:
+1. Ensure you have Python installed
+2. Install required packages: tkinter, tkcalendar, matplotlib
+3. Run the expense.py file
+4. The program will create an expense.db file for data storage
+
+Note: The program automatically creates a database file (expense.db) when first run and will export data to expenses.csv when using the export feature.
